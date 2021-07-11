@@ -1,0 +1,188 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1485560994238-db4592aa1a6e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  /* background-blend-mode:lighten;
+  background-color: rgb(17, 54, 54); */
+}
+
+header {
+  background-color: #182930;
+  color: white;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.513);
+  font-family: 'Francois One', sans-serif;
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: flex end; */
+  /* background-color: lightskyblue; */
+}
+
+#logo {
+  margin-left: 3.6rem;
+  margin-right: 35rem;
+  /* animation: animacao 1s; */
+  /* background-color: maroon; */
+}
+
+/* @keyframes animacao {
+  from {
+    transform: scaleX(20%);
+  }
+  to {
+    transform: scaleY(100%);
+  }
+} */
+
+#menuButton {
+  margin-right: 3.6rem;
+  padding-top: 1.2rem;
+  /* background-color: magenta; */
+}
+
+.container {
+  margin-left: 26.5%;
+  margin-right: 26.5%;
+  /* background-color: tomato; */
+}
+/* h2, h3{
+  color: white;
+} */
+
+#frase {
+  color: white;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.4rem;
+}
+
+.nomeCaixa {      
+  color: white;
+  font-size: 1.1rem;
+}
+
+.caixa1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 0.1rem 1rem 2rem 2rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.8s;
+}
+
+#tipo {
+  border-radius: 0.45rem;
+  padding: 0.2rem;
+  /* padding-right: 3rem; */
+  padding-left: 0.5rem;
+}
+
+.caixa1:hover {
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+
+.caixa2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 0.1rem 1rem 2rem 2rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.8s;
+  color: white;
+  font-size: 0.88rem;
+}
+
+.caixa2:hover {
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+
+span {
+  display: block;
+}
+
+#simplex, #splendidis, #luxuriosa {
+  border-radius: 2rem;
+}
+
+.caixa3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 0.1rem 1rem 2rem 2rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.8s;
+}
+
+.caixa3:hover {
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+
+#escreva {
+  width: 80%;
+  height: 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.35rem;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.84rem;
+  background-color: rgb(255, 255, 255);
+  transition: ease-in-out;
+}
+
+#botoes {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5.6rem;
+}
+
+#buttonCancelar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  transition: ease-in-out 0.8s;
+  color:white; 
+}
+
+#buttonCancelar:hover {
+  background-color: white;
+  color: #182930; 
+  border-color: red;
+} 
+
+#buttonConfirmar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  transition: ease-in-out 0.8s;
+  color:white;
+}
+
+#buttonConfirmar:hover {
+  background-color: white;
+  color: #182930; 
+  border-color: green;
+}
+
+#rosa {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+  background-color: khaki; 
+}
+
