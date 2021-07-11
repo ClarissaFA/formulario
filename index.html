@@ -17,13 +17,17 @@
       <h1 id="logo">Floris Honorem</h1>
         <div id="menuButton">
         <img src="https://img.icons8.com/material-rounded/24/ffffff/menu--v1.png" width="50rem"/>
-      </div>
-      </div> 
+        </div menuButton>
+      </div menu> 
     </header>
     <main>
-    <!-- <div id="rosa">
-       <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Roses-PNG/White_Rose_PNG_Clip_Art_Image-1660296512.png?m=1521109371g" width="17%" height="17%" alt="rosa"> -->
-    </div>
+    
+    <div id="colunaDaRosa">
+      <div id="rosa">
+        <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Roses-PNG/White_Rose_PNG_Clip_Art_Image-1660296512.png?m=1521109371g" width="17%" height="17%" alt="rosa">
+      </div rosa>
+    </div colunaDaRosa>
+   
     <div class="container">
       <h3 id="frase"><stong>Flores para honrar a memória dos que partiram</stong></h3>
       <form action="/my-first-form" method="post">
@@ -35,10 +39,9 @@
             <option value="buque">Buquê</option>
             <option value="arranjo">Arranjo</option>
           </select>
-        </div>
+        </div caixa1>
 
         <div class="caixa2">
-          
           <h3 class="nomeCaixa">Tamanho magnitudine</h3>
           <span>
           <input type="checkbox" id="simplex" name="Simplex honorem" />
@@ -52,18 +55,19 @@
           <input type="checkbox" id="luxuriosa" name="Luxuriosa honorem" />
           <label for="luxuriosa">Luxuriosa honorem</label>
           </span>
-        </div>
+        </div caixa2>
 
         <div class="caixa3">
-        <h3 class="nomeCaixa">Verbo gloriae</h3>
-        <textarea name="escreva" id="escreva" cols="35" rows="7">Escreva sua mensagem de honra:</textarea>
-        </div>
+          <h3 class="nomeCaixa">Verbo gloriae</h3>
+          <textarea name="escreva" id="escreva" cols="35" rows="7">Escreva sua mensagem de honra:</textarea>
+        </div caixa3>
+
+        <div id="botoes">
+          <button id="buttonCancelar" type="reset"><b>✖</b></button>
+          <button id="buttonConfirmar" type="submit"><b>✔</b></button>
+        </div botoes>
       </form>
-      <div id="botoes">
-      <button id="buttonCancelar" type="reset"><b>CANCELAR</b></button>
-      <button id="buttonConfirmar" type="submit"><b>CONFIRMAR</b></button>
-    </div>
-    </div>
+    </div container>
     </main>
   </body>
 </html>
