@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1485560994238-db4592aa1a6e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #182930;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.513);
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.5rem;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 8rem;
+  /* background-color: chartreuse; */
+} 
+
+
+#menuButton {
+ padding-top: 0.7rem;
+ /* background-color: magenta; */
+}
+
+  from {
+    opacity: 1;
+    transform: rotate3d(1,0,1,-2deg) translate(-1rem,1rem)
+  }
+  to {
+    opacity: 0;
+    transform: rotate3d(1,0,1,-67deg) translate(-15rem, 45rem)
+  }
+
+.container {
+  margin-left: 16.5%;
+  margin-right: 16.5%; 
+  width: 100vh;
+  /* background-color: tomato; */
+}
+
+#frase {
+  color: white;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  text-align: center;
+  margin: 2rem;
+  font-size: 2.3rem;
+}
+
+.nomeCaixa {      
+  color: white;
+  font-size: 1.8rem;
+}
+
+.caixa1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 3rem 4rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.8s;
+}
+
+#tipo {
+  border-radius: 0.5rem;
+  padding: 0.6rem 3rem 0.6rem 0.8rem;
+  margin-top: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.caixa1:hover {
+  background-color: rgba(255, 255, 255, 0.4) ;
+}
+
+.caixa2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 3rem 4rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.8s;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.caixa2:hover {
+  background-color: rgba(255, 255, 255, 0.4) ;
+}
+
+#simplex {
+  margin-top: 1.3rem;
+}
+
+span {
+  padding:0.1rem;
+  display: block;
+}
+
+.caixa3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-left: 5.6rem;
+  margin-right: 5.6rem;
+  padding: 3rem 4rem;
+  margin-bottom: 1.7rem;
+  transition: ease-in-out 0.8s;
+}
+
+.caixa3:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#escreva {
+  margin-top: 1.3rem;
+  width: 80%;
+  height: 10%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.35rem;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  background-color: rgb(255, 255, 255);
+  transition: ease-in-out;
+}
+
+#botoes {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5.6rem;
+}
+
+#buttonCancelar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  border-color: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  transition: ease-in-out 1s;
+  color:white; 
+}
+
+#buttonCancelar:hover {
+  background-color: white;
+  color: #182930; 
+  border-color: red;
+} 
+
+#buttonConfirmar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  border-color: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+  font-size: 2rem;
+  transition: ease-in-out 1s;
+  color:white;
+}
+
+#buttonConfirmar:hover {
+  background-color: white;
+  color: #182930; 
+  border-color: green;
+}
+
+#colunaDaRosa {
+  float: right;
+  width: 60vh;
+  /* background-color: khaki; */
+}
+
+#rosa{
+  /* width: 50vh; */
+  transform-origin: center;
+  background-blend-mode: multiply;
+  animation: animationRose 20s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationRose {
+  from {
+    opacity: 1;
+    transform: rotate3d(1,0,1,-2deg) translate(-1rem,1rem)
+  }
+  to {
+    /* display: none; */
+    opacity: 0;
+    transform: rotate3d(1,0,1,-20deg) translate(-15rem, 45rem)
+  }
+}
